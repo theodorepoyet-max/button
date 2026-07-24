@@ -1,0 +1,82 @@
+header {
+    padding-left: 100%;
+    padding-bottom: 75px;
+    background-color: #282828bc;
+    margin: 0%;
+}
+
+button.price {
+    color: #016a01;
+    background-color: rgb(209, 237, 199);
+    border-width: 2px;
+    border-color: rgb(134, 175, 119);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: var(--m);
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-left: 80%;
+}
+
+button.price:hover {
+    background-color: rgb(195, 224, 184);
+}
+
+span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #c52222;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--m);
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    color: #c52222;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'FeatureDeck', var(--s);
+    font-size: clamp(24px, 2.8vw, 36px);
+    font-weight: 300;
+    line-height: 1.12;
+    letter-spacing: -0.8px;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+p.text {
+    font-family: 'FeatureDeck', var(--s);
+    font-size: 25px;
+    text-align: center;
+    color: rgb(60, 60, 60);
+}
+
+p.text2 {
+    font-family: 'FeatureDeck', var(--s);
+    font-size: 25px;
+    text-align: center;
+    color: rgb(60, 60, 60);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    color: rgb(60, 60, 60);
+    margin: 20px auto;
+}
