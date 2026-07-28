@@ -2,6 +2,7 @@ let running = false;
 let interval;
 
 const button = document.getElementById("priceButton");
+const contactButtons = document.querySelectorAll(".contact-button");
 
 button.addEventListener("click", () => {
     if (!running) {
