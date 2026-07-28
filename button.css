@@ -4,6 +4,14 @@ header {
     background-color: #282828bc;
     margin: 0%;
 }
+.contact-button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #282828;
+    cursor: pointer;
+}
 
 button.price {
     color: #016a01;
